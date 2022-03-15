@@ -1,0 +1,59 @@
+:root {
+  --primary-color: #ffb400;
+  --background-color: #e4e6eb;
+  --sidebar-nav-background-color: #f0f0f6;
+  --card-background-color: #ffffff;
+}
+
+.cv-discription {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  height: 300px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.about-me {
+  margin: 0;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about-me p {
+  font-size: 11px;
+  margin: 0.5rem;
+}
+
+.about-me .discription {
+  padding: 0.2rem 0.3rem;
+  background-color: var(--primary-color);
+  color: black;
+}
+
+hr {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 88%;
+  color: rgba(118, 118, 118, 0.5);
+}
+/*# sourceMappingURL=CV.css.map */

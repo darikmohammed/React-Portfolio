@@ -1,0 +1,39 @@
+:root {
+  --primary-color: #ffb400;
+  --background-color: #e4e6eb;
+  --sidebar-nav-background-color: #f0f0f6;
+  --card-background-color: #ffffff;
+}
+.cv-discription {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  //   background-color: beige;
+  height: 300px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.about-me {
+  margin: 0;
+  text-align: left;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  p {
+    font-size: 11px;
+    margin: 0.5rem;
+  }
+  .discription {
+    padding: 0.2rem 0.3rem;
+    background-color: var(--primary-color);
+    color: black;
+  }
+}
+hr {
+  align-self: center;
+  width: 88%;
+  color: rgba($color: #767676, $alpha: 0.5);
+}

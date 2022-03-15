@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #ffb400;
+  --background-color: #e4e6eb;
+  --sidebar-nav-background-color: #f0f0f6;
+  --card-background-color: #ffffff;
+}
+.skill {
+  display: flex;
+  justify-content: space-between;
+}
+.progress-bar-container {
+  background-color: var(--card-background-color);
+  border-radius: 30px;
+  height: 5px;
+  border: #ffb400 solid 1px;
+}
+.progress-bar {
+  background-color: var(--primary-color);
+  height: 2px;
+  border-radius: 30px;
+  margin-top: 1px;
+}

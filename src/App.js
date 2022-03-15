@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Nav from "./components/Nav";
 import Services from "./components/Services";
+import Price from "./components/Price";
 import "./style/App.css";
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       <Nav />
       <About />
       <Services />
-      {/* Price Plan */}
+      <Price />
       {/* footer */}
     </div>
   );

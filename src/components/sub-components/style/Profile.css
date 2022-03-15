@@ -1,0 +1,51 @@
+:root {
+  --primary-color: #ffb400;
+  --background-color: #e4e6eb;
+  --sidebar-nav-background-color: #f0f0f6;
+  --card-background-color: #ffffff;
+}
+
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 1rem;
+}
+
+.profile .fa-solid.fa-xmark {
+  margin: 1rem 2rem;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.profile .avatar {
+  margin-top: -1rem;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+}
+
+.profile .developer {
+  margin: 0;
+}
+
+.profile .socials {
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+.profile hr {
+  width: 88%;
+  color: rgba(118, 118, 118, 0.5);
+}
+/*# sourceMappingURL=Profile.css.map */

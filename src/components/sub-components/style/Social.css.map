@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACJ,eAAe,CAAA,QAAC;EAChB,kBAAkB,CAAA,QAAC;EACnB,8BAA8B,CAAA,QAAC;EAC/B,uBAAuB,CAAA,QAAC;CACzB;;AACD,AACE,OADK,CACL,CAAC,CAAC;EACA,KAAK,EAAE,oBAAoB;CAC5B",
+    "sources": [
+        "Social.scss"
+    ],
+    "names": [],
+    "file": "Social.css"
+}
