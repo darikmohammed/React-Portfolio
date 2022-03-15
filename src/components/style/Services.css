@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #ffb400;
+  --background-color: #e4e6eb;
+  --sidebar-nav-background-color: #f0f0f6;
+  --card-background-color: #ffffff;
+}
+
+.services {
+  margin: 1rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+/*# sourceMappingURL=Services.css.map */

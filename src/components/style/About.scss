@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #ffb400;
+  --background-color: #e4e6eb;
+  --sidebar-nav-background-color: #f0f0f6;
+  --card-background-color: #ffffff;
+}
+.about-description {
+  margin: 1rem 1.5rem;
+  background-color: var(--card-background-color);
+  text-align: center;
+  padding: 1rem 3rem;
+  .web {
+    color: var(--primary-color);
+  }
+}
