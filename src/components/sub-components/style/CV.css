@@ -56,4 +56,10 @@ hr {
   width: 88%;
   color: rgba(118, 118, 118, 0.5);
 }
+
+@media all and (min-width: 768px) {
+  .cv-discription {
+    height: auto;
+  }
+}
 /*# sourceMappingURL=CV.css.map */

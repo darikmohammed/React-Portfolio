@@ -9,4 +9,14 @@
   margin: 1rem;
   margin-top: 3rem;
   text-align: center;
+  
+}
+
+@media all and (min-width: 768px){
+  .services{
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
 }

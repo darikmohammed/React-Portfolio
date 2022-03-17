@@ -6,7 +6,6 @@ import "./style/Profile.css";
 function Profile() {
   return (
     <div className="profile">
-      <i className="fa-solid fa-xmark"></i>
       <img src="/img/profile.jpeg" alt="" className="avatar" />
       <h3>Darik Mohammed</h3>
       <p className="developer">Full-Stack Developer</p>
@@ -20,9 +19,6 @@ function Profile() {
       <hr />
       {/* Scrollable cv-sample */}
       <CVDescription />
-      <button>
-        HIRE ME <i className="fa-solid fa-arrow-right "></i>
-      </button>
     </div>
   );
 }

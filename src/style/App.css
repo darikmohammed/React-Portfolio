@@ -47,4 +47,12 @@ button {
 body {
   background-color: var(--background-color);
 }
+
+@media all and (min-width: 768px) {
+  .App {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 /*# sourceMappingURL=App.css.map */

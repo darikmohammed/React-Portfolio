@@ -114,24 +114,26 @@ function Price() {
         cupiditate illo sint consectetur, harum iste minima asperiores ipsum
         accusantium est.
       </p>
-      <PriceCard
-        icons={silver}
-        header="Silver"
-        price="0.00"
-        parag="For most businesses that want to optimeze web queries"
-      />
-      <PriceCard
-        icons={gold}
-        header="Gold"
-        price="50.00"
-        parag="For most businesses that want to optimeze web queries"
-      />
-      <PriceCard
-        icons={silver}
-        header="Silver"
-        price="80.00"
-        parag="For most businesses that want to optimeze web queries"
-      />
+      <div className="price-cards">
+        <PriceCard
+          icons={silver}
+          header="Silver"
+          price="0.00"
+          parag="For most businesses that want to optimeze web queries"
+        />
+        <PriceCard
+          icons={gold}
+          header="Gold"
+          price="50.00"
+          parag="For most businesses that want to optimeze web queries"
+        />
+        <PriceCard
+          icons={Dimond}
+          header="Dimond"
+          price="80.00"
+          parag="For most businesses that want to optimeze web queries"
+        />
+      </div>
     </div>
   );
 }

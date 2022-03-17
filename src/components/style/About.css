@@ -15,4 +15,28 @@
 .about-description .web {
   color: var(--primary-color);
 }
+
+.about-description .profile-img {
+  display: none;
+}
+
+@media all and (min-width: 768px) {
+  .about-description .header-notes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about-description .profile-img {
+    display: block;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 2rem;
+  }
+}
 /*# sourceMappingURL=About.css.map */

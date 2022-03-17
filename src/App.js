@@ -1,17 +1,18 @@
 import About from "./components/About";
-import Nav from "./components/Nav";
 import Services from "./components/Services";
 import Price from "./components/Price";
 import "./style/App.css";
+import Profile from "./components/sub-components/Profile";
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <About />
-      <Services />
-      <Price />
-      {/* footer */}
+      <Profile />
+      <div className="main">
+        <About />
+        <Services />
+        <Price />
+      </div>
     </div>
   );
 }

@@ -40,3 +40,9 @@ button {
 body {
   background-color: var(--background-color);
 }
+
+@media all and (min-width: 768px) {
+  .App {
+    display: flex;
+  }
+}

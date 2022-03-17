@@ -14,10 +14,6 @@ const Nav = () => {
           <i className="fa-solid fa-bars" id="profile-menu"></i>
           <i className="fa-solid fa-ellipsis-vertical" id="nav-menu"></i>
         </div>
-
-        <div className="profile-container" style={{ display: "block" }}>
-          <Profile />
-        </div>
       </header>
     </div>
   );

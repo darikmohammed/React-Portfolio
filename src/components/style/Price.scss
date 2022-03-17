@@ -9,3 +9,10 @@
   text-align: center;
   margin-top: 3rem;
 }
+
+@media all and (min-width: 768px) {
+  .price-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

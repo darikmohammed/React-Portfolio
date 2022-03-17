@@ -10,4 +10,13 @@
   text-align: center;
   margin-top: 3rem;
 }
+
+@media all and (min-width: 768px) {
+  .price-cards {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
 /*# sourceMappingURL=Price.css.map */

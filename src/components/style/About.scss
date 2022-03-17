@@ -12,4 +12,23 @@
   .web {
     color: var(--primary-color);
   }
+  .profile-img {
+    display: none;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .about-description {
+    .header-notes {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .profile-img {
+      display: block;
+      width: 15rem;
+      height: 15rem;
+      border-radius: 2rem;
+    }
+  }
 }
